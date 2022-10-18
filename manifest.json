@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "ttlogin",
+  "version": "0.1.0",
+  "description": "Automatically input Tokyo Tech matrix authentication values.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://portal.nap.gsic.titech.ac.jp/GetAccess/Login*"],
+      "js": ["scripts.js"]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}
