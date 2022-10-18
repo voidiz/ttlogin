@@ -12,4 +12,4 @@ Automatically perform matrix authentication when logging into the Tokyo Tech por
 
 ## notes
 
-The matrix values are stored locally in the browser (see https://github.com/voidiz/ttlogin/blob/master/src/components/Matrix.tsx#L68-L70).
+The matrix values are stored locally in the browser (see [Matrix.tsx#L68-L70](https://github.com/voidiz/ttlogin/blob/master/src/components/Matrix.tsx#L68-L70)).
